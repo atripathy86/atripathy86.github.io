@@ -1,4 +1,4 @@
-include: [".well-known"]
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -165,6 +165,8 @@ analytics:
 include:
   - .htaccess
   - _pages
+  - .well-known
+  
   - files
 exclude:
   - "*.sublime-project"
@@ -178,7 +180,7 @@ exclude:
   - assets/js/plugins
   - assets/js/vendor
   - CHANGELOG
-  - Capfile
+
   - config
   - Dockerfile
   - Gemfile
